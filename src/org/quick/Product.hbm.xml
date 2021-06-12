@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="org.quick">
+    <class name="Product" table="product"> 
+        <id name="serialNo">
+            <generator class="native"/>
+        </id>
+        <property name="companyId"/>
+        <property name="productId"/>
+        <property name="productName"/>
+        <property name="productPrice"/>
+        <property name="productQuantity"/>
+        <property name="warranty"/>
+        <property name="status"/>
+    </class>
+</hibernate-mapping>

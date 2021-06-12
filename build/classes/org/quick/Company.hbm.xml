@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="org.quick">
+    <class name="Company" table="company">
+       <id name="companyId"/>
+       <property name="companyName"/> 
+       <property name="registrationId"/> 
+       <property name="contactNo"/> 
+       <property name="address"/> 
+       <property name="gstNo"/> 
+       <property name="billType"/> 
+       <property name="password"/> 
+     </class>
+</hibernate-mapping>
